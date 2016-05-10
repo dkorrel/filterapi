@@ -43,7 +43,7 @@ class Authenticate
 
         foreach( $users as $user )
         {
-            if( isset($user->api_token) && $user->api_token === $token ) 
+            if( isset($user->remember_token) && $user->remember_token === $token ) 
             {
                 $found = $user;
             }
