@@ -4,16 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8bbe37e1198d03e44cce57b837947fab",
-    "content-hash": "63c44612f8dd87f2e92255795b34bb50",
+    "hash": "88a15becd5c048afed82c1fb422ef940",
+    "content-hash": "f30b36a88636bfa191abedf42e2b8340",
     "packages": [
         {
             "name": "cjp/filter",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "/home/daniel/Projects/filter",
-                "reference": "12d896ae5fbbcf36fb3ba47c94bd3cf6233a1d28"
+                "url": "https://github.com/dkorrel/filter.git",
+                "reference": "2d5cf1528740d2c104046534db789142d43e83bf"
             },
             "require": {
                 "illuminate/support": "5.*"
@@ -31,7 +31,7 @@
                 }
             ],
             "description": "Custom data filter.",
-            "time": "2016-05-10 18:50:43"
+            "time": "2016-05-10 20:23:50"
         },
         {
             "name": "classpreloader/classpreloader",

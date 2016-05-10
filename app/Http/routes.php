@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('events', 'EventController');
+Route::group(['prefix' => 'api', 'middleware' => 'auth:api'], function () {
+	Route::resource('events', 'EventController');
+});
